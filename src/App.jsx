@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <div>
-        bobo
+        <p>ayaw ko na potangina </p>
       </div>
     </>
   )
