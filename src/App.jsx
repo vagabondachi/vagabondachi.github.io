@@ -1,15 +1,11 @@
-import { useState } from 'react'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
       <div>
+        <h1> test title </h1>
         <p>ayaw ko na potangina </p>
       </div>
-    </>
   )
 }
 
