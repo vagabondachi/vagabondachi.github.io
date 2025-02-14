@@ -4,12 +4,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "dev": "yarn vite",
+    "build": "yarn vite build",
+    "lint": "yarn eslint .",
+    "preview": "yarn vite preview",
+    "predeploy": "yarn build",
+    "deploy": "yarn gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.3.1",
